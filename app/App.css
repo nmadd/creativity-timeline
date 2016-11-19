@@ -1,0 +1,17 @@
+div {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+}
+
+.circle {
+  fill: green
+}
+
+
+.circle:hover {
+  fill: red;
+  r: 20;
+}
