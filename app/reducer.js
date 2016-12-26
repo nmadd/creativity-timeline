@@ -1,12 +1,9 @@
 import data from './data';
 
-console.log('data???', data);
-
-const reducer = (state = {currentInfo: null}, action) => {
+const reducer = (state = {currentInfo: null, activePath: '', posts: data}, action) => {
   switch (action.type) {
     case 'SET_CURRENT_INFO':
-      const newInfo = data[action.payload];
-      return Object.assign({}, state, {currentInfo: newInfo})
+      return Object.assign({}, state, {currentInfo: action.payload, activePath: action.payload})
     default:
       return state
   }

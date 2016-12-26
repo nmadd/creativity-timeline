@@ -6,12 +6,11 @@ import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import Info from './info/Info.jsx';
 import {Provider} from 'react-redux';
 import store from './store';
+import {setCurrentInfo} from './actions';
+import {compose} from 'redux';
 
 
 const App = React.createClass({
-  getInitialState() {
-    return {currentInfo: null};
-  },
   render() {
     return (
       <div>
@@ -22,11 +21,14 @@ const App = React.createClass({
   }
 })
 
+const setInfoOnEnter = (nextState) => {store.dispatch(setCurrentInfo(nextState.params.num))}
+const routeEnterHandler = compose(setInfoOnEnter);
+
 ReactDOM.render(
   <Provider store={store} >
     <Router history={browserHistory}>
       <Route path='/' component={App}>
-        <Route path='info' component={Info} />
+        <Route path='info/:num' component={Info} onEnter={routeEnterHandler}/>
       </Route>
     </Router>
   </Provider>,

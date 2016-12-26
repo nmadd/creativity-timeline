@@ -6,12 +6,12 @@ h1 {
   color: black;
 }
 
-.circle {
+/*.circle {
   fill: green
-}
+}*/
 
 
 .circle:hover {
-  fill: red;
+  fill: blue;
   r: 20;
 }
