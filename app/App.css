@@ -6,12 +6,22 @@ h1 {
   color: black;
 }
 
-/*.circle {
-  fill: green
-}*/
+div {
+  width: 100%;
+}
+
+#timeline-svg {
+  padding: 3%;
+}
+
+#timeline-container {
+  display: flex;
+  width: 100%;
+}
 
 
-.circle:hover {
+
+/*.circle:hover {
   fill: black;
   r: 20;
-}
+}*/

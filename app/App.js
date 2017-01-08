@@ -24,7 +24,7 @@ const styles = {
 const particleParams = {
         particles: {
           number: {
-            value: 50
+            value: 30
           },
           color: {
             value: '#ff00ff'
@@ -45,7 +45,30 @@ const particleParams = {
             out_mode: 'out',
             speed: 1
           }
+        },
+        interactivity: {
+          events: {
+            onclick: {
+              enable: true,
+              mode: 'push'
+            },
+            onhover: {
+              enable: true,
+              mode: 'bubble'
+            }
+          },
+          modes: {
+            bubble: {
+              size: 5,
+              duration: 5,
+              distance: 150,
+              opacity: .5
+            }
+          },
+          detect_on: 'window'
         }
+
+
 }
 
 const App = React.createClass({
@@ -54,7 +77,7 @@ const App = React.createClass({
       <div >
         <Particles style={styles.particles} params={particleParams} />
         <div style={styles.content}>
-          <Timeline/>
+          <Timeline widthPercent={.9}/>
           {this.props.children}
         </div>
       </div>
