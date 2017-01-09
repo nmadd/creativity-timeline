@@ -19,9 +19,13 @@ div {
   width: 100%;
 }
 
+.circle {
+  transition: r .5s ease;
+  fill: magenta;
+}
 
-
-/*.circle:hover {
+.circle:hover {
+  transition: r .5s ease;
   fill: black;
   r: 20;
-}*/
+}

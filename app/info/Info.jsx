@@ -9,18 +9,20 @@ const Info = (props) => {
   prevPost -= 1;
   let nextPost = parseInt(props.activePath.split('').pop());
   nextPost += 1;
+  debugger;
   return <div>
-    <Link to={`/info/post${prevPost}`}><MdChevronLeft/></Link>
+    {prevPost > 0 ? <Link to={`/info/post${prevPost}`}><MdChevronLeft/></Link>: null}
     <p>{props.currentPost.text}</p>
     <p>{props.currentPost.year}</p>
-    <Link to={`/info/post${nextPost}`}><MdChevronRight/></Link>
+    {nextPost <= props.postsLength ? <Link to={`/info/post${nextPost}`}><MdChevronRight/></Link> : null}
   </div>
 };
 
 
 const mapStateToProps = (state, ownProps) => ({
   currentPost: state.posts.find(post => post.path === state.currentInfo),
-  activePath: state.activePath
+  activePath: state.activePath,
+  postsLength: state.posts.length
 })
 
 export default connect(mapStateToProps)(Info);
