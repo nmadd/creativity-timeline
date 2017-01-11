@@ -74,7 +74,7 @@ const particleParams = {
 const App = React.createClass({
   render() {
     return (
-      <div >
+      <div id='main-container'>
         <Particles style={styles.particles} params={particleParams} />
         <div style={styles.content}>
           <Timeline widthPercent={.9}/>

@@ -1,3 +1,34 @@
+#main-container {
+  display: flex;
+  justify-content: center;
+}
+
+#timeline-container {
+  display: static;
+  position: fixed;
+  top: 0;
+}
+
+.info {
+  /*align-self: center;*/
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+}
+
+.arrow:hover {
+  fill: magenta;
+}
+
 div {
   background-color: white;
 }
@@ -8,6 +39,12 @@ h1 {
 
 div {
   width: 100%;
+  text-align: center;
+}
+
+p {
+  font-size: 1.6em;
+  line-height: 1.8;
 }
 
 #timeline-svg {
@@ -28,4 +65,8 @@ div {
   transition: r .5s ease;
   fill: black;
   r: 20;
+}
+
+.year {
+  margin-bottom: 30px;
 }

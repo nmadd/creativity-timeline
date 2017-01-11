@@ -32,7 +32,7 @@ const Timeline = React.createClass({
             //calculate current post's x coordinate proportional to first year on timeline
             const ratio = (post.year - firstPost.year) /  yearSpread * this.state.timelineWidth;
             //render the timeline node as a circle svg
-            return <Circle key={indx} post={post.path} cx={ratio} cy="50"/>
+            return <Circle key={indx} year={post.year} post={post.path} cx={ratio} cy="50"/>
            }): null}
         </svg>
       </div>
