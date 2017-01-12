@@ -10,11 +10,11 @@ const Info = (props) => {
   let nextPost = parseInt(props.activePath.split('').pop());
   nextPost += 1;
   return <div className='info-container'>
-    {prevPost > 0 ? <div className='arrow-container'><Link to={`/info/post${prevPost}`}><MdChevronLeft className='arrow'/></Link></div>: null}
+    <div className='arrow-container'><Link to={`/info/post${prevPost}`}><MdChevronLeft className={prevPost > 0 ? 'arrow' : 'hidden-arrow'}/></Link></div>
     <div className='info-text'>
       <p>{props.currentPost.text}</p>
     </div>
-    {nextPost <= props.postsLength ? <div className='arrow-container'><Link to={`/info/post${nextPost}`}><MdChevronRight className='arrow'/></Link></div> : null}
+    <div className='arrow-container'><Link to={`/info/post${nextPost}`}><MdChevronRight className={nextPost <= props.postsLength ? 'arrow' : 'hidden-arrow'}/></Link></div>
   </div>
 };
 
