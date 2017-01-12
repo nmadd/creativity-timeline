@@ -1,6 +1,6 @@
 export default [
   {
-    text: 'this is a test post 1',
+    text: 'testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing',
     year: 2007,
     path: 'post1'
   },

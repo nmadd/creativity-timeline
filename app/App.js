@@ -9,6 +9,8 @@ import store from './store';
 import {setCurrentInfo} from './actions';
 import {compose} from 'redux';
 import Particles from 'react-particles-js';
+import TopButtonsContainer from './top-buttons/TopButtonsContainer.jsx';
+import buttons from './top-buttons/buttons-config';
 
 const styles = {
   particles : {
@@ -67,8 +69,6 @@ const particleParams = {
           },
           detect_on: 'window'
         }
-
-
 }
 
 const App = React.createClass({
@@ -77,6 +77,7 @@ const App = React.createClass({
       <div id='main-container'>
         <Particles style={styles.particles} params={particleParams} />
         <div style={styles.content}>
+          <TopButtonsContainer buttons={buttons}/>
           <Timeline widthPercent={.9}/>
           {this.props.children}
         </div>
