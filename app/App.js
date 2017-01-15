@@ -10,6 +10,9 @@ import {setCurrentInfo} from './actions';
 import {compose} from 'redux';
 import Particles from 'react-particles-js';
 import TopButtonsContainer from './top-buttons/TopButtonsContainer.jsx';
+import LandingPage from './landing-page/LandingPage.jsx';
+import About from './about/About.jsx';
+import FullText from './full-text/FullText.jsx';
 import buttons from './top-buttons/buttons-config';
 
 const styles = {
@@ -95,7 +98,10 @@ ReactDOM.render(
   <Provider store={store}>
   <Router history={browserHistory}>
     <Route path='/' component={App}>
+      <IndexRoute component={LandingPage} />
       <Route path='info/:num' component={Info} onEnter={routeEnterHandler}/>
+      <Route path='about' component={About} />
+      <Route path='full-text' component={FullText} />
     </Route>
   </Router>
 </Provider>, document.getElementById('root'))
