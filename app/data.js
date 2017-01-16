@@ -1,17 +1,19 @@
 export default [
   {
-    text: 'testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing',
+    text: `In 2007, I spent many late nights at our campus radio station. {I'd spent most of my teens obsessively collecting music, and was excited to share my love of experimental music with the world. }I was hosting my first ever radio show, and I was on in primetime: Wednesday nights, from 11PM - 1AM. Needless to say, I did not have many listeners. But I loved the opportunity to create, and tell a story`,
     year: 2007,
+    path: 'post0'
+  },
+  {
+    text: `But then, two years later, everything changed. {After the radio show} I started a music website called 'FratMusic' with three friends. Although none of us were actually in a fraternity, we noticed that the fraternities around our school paid local DJs to play at their parties. However, the DJs usually just played standard, top-40 hits. So we thought there might be an opportunity to create a better solution.`,
+    year: 2009,
     path: 'post1'
   },
   {
-    text: `My first step into entrepreneurship happened almost accidentally. During college, midway through my senior year, I started a music website called 'FratMusic' with three friends. Although none of us were actually in a fraternity (and frankly had no interest in joining one), we noticed that the fraternities around our school paid local DJs to play at their parties. However, the DJs usually just played standard, top-40 hits. So we thought there might be an opportunity to create a better solution.
-
-    FratMusic began as a simple playlist. I would basically listen to the music that was being played on campus, scour the internet for good remixes and mashups of those songs, and add them to FratMusic.
-
+    text:
+    `
+    FratMusic began as a simple playlist. I would listen to the music that was being played on campus, scour the internet for good remixes and mashups of those songs, and add them to FratMusic.
     After a few months, we added a new feature that allowed any college student to submit a playlist. The next thing we knew, our site unexpectedly started growing and turning into a burgeoning community of DJs and music lovers. By the time our college graduation approached, FratMusic had reached all fifty states and was getting over 80,000 unique users a day.
-
-    //One to two more sentences about deciding to pursue FratMusic full time...
     `,
     year: 2010,
     path: 'post2'
@@ -42,7 +44,7 @@ export default [
   {
     text: `
 
-    Ultimately, I would like a career where I use my information management and programming skillset to lead business strategy and innovation. Furthermore, I want to help take on the world's most pressing problems and do work for a mission that I believe in. I would love the opportunity to pursue this journey at Cornell Tech.`,
+    Ultimately, I would like a career where I use my information management and programming skillset to lead business strategy and innovation. I would like to explore the intersection of data-science and business. Use data-science and programming skills to find deeper trends. Take on bigger problems in the world. Believe that modern business is deeply data driven and analytical, and require top-notch analytical skills; but also, numbers don't tell the complete story. We're seeing now more than ever that modern business also takes deep understanding of the people, and communities that underly our data. Takes creativity, story telling, and community building. Ultimately, I'd like to be back in an entrepreneurial role, either at my own company or within a larger one. But along the way would like to get some more diverse experience. I realize that the hardest problems always come down to managing humans: even with the best tech, people make or break your company. Furthermore, I want to help take on the world's most pressing problems and do work for a mission that I believe in. I would love the opportunity to pursue this journey at Cornell Tech.`,
     year: 2017,
     path: 'post7'
   }
