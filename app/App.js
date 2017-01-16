@@ -19,20 +19,20 @@ const styles = {
   particles : {
     position: 'relative'
   },
-  content: {
-    position: 'absolute',
-    top: 0,
-    backgroundColor: 'rgba(0,0,0,0)'
-  }
+  // content: {
+  //   position: 'absolute',
+  //   top: 0,
+  //   backgroundColor: 'rgba(0,0,0,0)'
+  // }
 }
 
 const particleParams = {
         particles: {
           number: {
-            value: 30
+            value: 10
           },
           color: {
-            value: '#ff00ff'
+            value: '#87CEFA'
           },
           shape: {
             type: 'circle'
@@ -79,7 +79,7 @@ const App = React.createClass({
     return (
       <div id='main-container'>
         <Particles style={styles.particles} params={particleParams} />
-        <div style={styles.content}>
+        <div id='content-container'>
           <TopButtonsContainer buttons={buttons}/>
           <Timeline widthPercent={.9}/>
           {this.props.children}

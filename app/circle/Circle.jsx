@@ -4,7 +4,7 @@ import store from '../store';
 
 const Circle = props => (
   <Link to={`/info/${props.post}`}>
-    <circle className="circle"  cx={props.cx} cy={props.cy} r={props.post === store.getState().activePath ? 20 : 10} stroke="10" fill={props.post === store.getState().activePath ? 'black' : 'magenta'} />
+    <circle className={props.post === store.getState().activePath ? 'circle active-circle' : 'circle'}  cx={props.cx} cy={props.cy}  stroke="10"  />
   </Link>
 );
 
