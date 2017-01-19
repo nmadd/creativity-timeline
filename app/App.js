@@ -15,16 +15,16 @@ import About from './about/About.jsx';
 import FullText from './full-text/FullText.jsx';
 import buttons from './top-buttons/buttons-config';
 
-const styles = {
-  particles : {
-    position: 'relative'
-  },
-  // content: {
-  //   position: 'absolute',
-  //   top: 0,
-  //   backgroundColor: 'rgba(0,0,0,0)'
-  // }
-}
+// const styles = {
+//   particles : {
+//     position: 'relative'
+//   },
+//   // content: {
+//   //   position: 'absolute',
+//   //   top: 0,
+//   //   backgroundColor: 'rgba(0,0,0,0)'
+//   // }
+// }
 
 const particleParams = {
         particles: {
@@ -78,7 +78,7 @@ const App = React.createClass({
   render() {
     return (
       <div id='main-container'>
-        <Particles style={styles.particles} params={particleParams} />
+        <Particles className='particles-container' params={particleParams} />
         <div id='content-container'>
           <TopButtonsContainer buttons={buttons}/>
           <Timeline widthPercent={.9}/>

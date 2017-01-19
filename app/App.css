@@ -6,6 +6,10 @@
   flex: 3;
 }
 
+.particles-container {
+  position: relative;
+}
+
 #main-container {
   display: flex;
   width: 100%;
@@ -59,9 +63,8 @@ button:hover {
 }
 
 #timeline-container {
-  display: static;
   position: fixed;
-  top: 50;
+  margin-top: 50px;
 }
 
 .info-container {
@@ -96,13 +99,31 @@ button:hover {
   fill: black;
 }
 
+.arrow:hover {
+  fill: lightskyblue;
+}
+
 .hidden-arrow {
   display: none;
 }
 
+.circle {
+  transition: r .5s ease;
+  fill: white;
+  stroke: lightskyblue;
+  stroke-width: 2;
+  r: 15;
+}
 
-.arrow:hover {
+.active-circle {
   fill: lightskyblue;
+  r: 20;
+}
+
+.circle:hover {
+  transition: r .5s ease;
+  fill: lightskyblue;
+  r: 20;
 }
 
 .landing-page {
@@ -140,25 +161,6 @@ p {
 #timeline-container {
   display: flex;
   width: 100%;
-}
-
-.circle {
-  transition: r .5s ease;
-  fill: white;
-  stroke: lightskyblue;
-  stroke-width: 2;
-  r: 15;
-}
-
-.active-circle {
-  fill: lightskyblue;
-  r: 20;
-}
-
-.circle:hover {
-  transition: r .5s ease;
-  fill: lightskyblue;
-  r: 20;
 }
 
 .year {
