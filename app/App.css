@@ -1,3 +1,11 @@
+.flex-one {
+  flex: 1;
+}
+
+.flex-three {
+  flex: 3;
+}
+
 #main-container {
   display: flex;
   width: 100%;
@@ -21,7 +29,7 @@ p {
 
 .top-button {
   width: 200px;
-  font-size: 1em;
+  font-size: 1.2em;
   border-color: #fff;
   background-color: #fff;
   padding: 20px;
@@ -47,6 +55,7 @@ button:hover {
 .start-button {
   border-style: solid;
   border-color: lightskyblue;
+  font-size: 1.4em;
 }
 
 #timeline-container {
@@ -84,6 +93,7 @@ button:hover {
   width: 75px;
   height: 75px;
   padding: 0 40px;
+  fill: black;
 }
 
 .hidden-arrow {
@@ -100,11 +110,14 @@ button:hover {
 }
 
 .about-page {
-  margin-top: 200px;
+  margin-top: 15em;
+  background-color: white;
+  display: flex;
 }
 
 .full-text-page {
-  margin-top: 200px;
+  margin-top: 15em;
+  display: flex;
 }
 
 h1 {

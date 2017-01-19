@@ -12,7 +12,7 @@ const Info = (props) => {
   return <div className='info-container'>
     <div className='arrow-container'><Link to={`/info/post${prevPost}`}><MdChevronLeft className={prevPost > 0 ? 'arrow' : 'hidden-arrow'}/></Link></div>
     <div className='info-text'>
-      <h1>{props.currentPost.year}</h1>
+      <h1>{nextPost <= props.postsLength ? props.currentPost.year : `${props.currentPost.year} And Beyond`}</h1>
       <br/>
       {props.currentPost.text.map((paragraph, indx) => (<p key={indx}>{paragraph}</p>))}
     </div>

@@ -44,15 +44,27 @@ export default [
     path: 'post6'
   },
   {
-    text: [`After attending a four-month, in-person coding school, I stumbled upon a small, non-profit coding school in Queens NY that was focusing on teaching coding to underserved populations. I was immediately drawn in by their mission.`,
-    ` Soon after, I began working as a web development instructor at Coalition for Queens, where I've gained experience in everything from building the overall arch of our curriculum, to managing the dynamics of a classroom, to learning how to build a non-profit. {Sentence about why I love teaching}`],
+    text: [`After attending a four-month coding school in Manhattan, I stumbled upon a small, non-profit coding school in Queens, NY that was focusing on teaching coding to underserved populations.
+      I was immediately drawn in by their mission.`,
+    ` Soon after, I began working as a web development instructor at Coalition for Queens, where I've gained experience in everything from building the overall arch of our curriculum, to managing the dynamics of a classroom, to learning how to build a non-profit. `],
     year: 2016,
     path: 'post7'
   },
   {
     text: [`
 
-    Coming soon`],
+    Going forward, I would love to continue to explore the intersection of technology and business.
+    Ultimately, I want to be a CTO or founder of a company that is working to solve one of the many big problems in fields like education, health, and technology.
+    Along the way I would like to continue gain diverse work experience and explore roles in technical product managegement and consulting.`,
+
+    `Throughout my experience, I have come to realize that solving the hardest problems always comes down to having a well organized team of great people.
+    Even the best technology is ineffective without a well managed group of people behind it.
+    I believe that, moving forward, it will be crucial to have a deep understanding of both technology and human dynamics, and how they interact.
+    I'm interested in pursuing an MBA to learn the science of leading people, and the art of balancing the best of technology and humanity.`,
+
+    `I am drawn to Cornell Tech because of its hands on, immersive learning environment, which I believe is the best way to learn.
+    I am also drawn to the inherently entrepreneurial nature of the program, and the interdisciplinary mix of MBA and Computer Science students.
+    I would love the opportunity to continue my journey at Cornell Tech.`],
     year: 2017,
     path: 'post8'
   }
@@ -60,8 +72,15 @@ export default [
 
 const text8 = [`
 
-Ultimately, I would like to continue to explore the intersection of technology and business. {I would liek to eventually be a CTO, and gain experience in entrepreneurial roles, like product manager.}{Across all of my experience, I've realzied that solving the hardest problems always depend on managing humans. Even the hardest technology problems depend on how well you } Use data-science and programming skills to find deeper trends. Take on bigger problems in the world.`,
+Going forward, I would love to continue to explore the intersection of technology and business.
+Ultimately, I want to be a CTO or founder of a company that is working to solve one of the many big problems in fields like education, health, and technology.
+Along the way I would like to continue gain diverse work experience and explore roles in technical product managegement and consulting.`,
 
-`Takes creativity, story telling, and community building. Ultimately, I'd like to be back in an entrepreneurial role, either at my own company or within a larger one. But along the way would like to get some more diverse experience.`,
+`Throughout my experience, I have come to realize that solving the hardest problems always comes down to having a well organized team of great people.
+Even the best technology is ineffective without a well managed group of people behind it.
+I believe that, moving forward, it will be crucial to have a deep understanding of both technology and human dynamics, and how they interact.
+I'm interested in pursuing an MBA to learn the science of leading people, and the art of blending together the best of technology and humanity.`,
 
-`I realize that the hardest problems always come down to managing humans: even with the best tech, people make or break your company. Furthermore, I want to help take on the world's most pressing problems and do work for a mission that I believe in. I would love the opportunity to pursue this journey at Cornell Tech.`]
+`I am drawn to Cornell Tech because of its hands on, immersive learning environment, which I believe is the best way to learn.
+I am also drawn to the inherently entrepreneurial nature of the program, and the interdisciplinary mix of MBA and Computer Science students.
+I would love the opportunity to continue my journey at Cornell Tech.`]
