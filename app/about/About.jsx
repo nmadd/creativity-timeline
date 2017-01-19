@@ -1,7 +1,9 @@
 import React from 'react';
 
 const aboutText1 = `
-I made this project to try to visualize a little bit of my creative journey. Each node on the timeline has a few paragraphs about my creativity at different times in my life. And whenever you click on the page, new connections are formed between the bubbles in the background.
+I made this project to try to visualize some of my creative journey. 
+Each node on the timeline has a few paragraphs about my creativity during different times in my life.
+And whenever you click on the page, new connections are formed between the bubbles in the background.
 `
 
 const About = (props) => (
