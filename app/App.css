@@ -25,17 +25,15 @@
 }
 
 .landing-page {
-  /*margin-top: 2em;*/
+
 }
 
 .about-page {
-  /*margin-top: 2em;*/
   background-color: white;
   display: flex;
 }
 
 .full-text-page {
-  /*margin-top: 2em;*/
   display: flex;
 }
 
@@ -70,7 +68,6 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*position: fixed;*/
 }
 
 .start-button {
@@ -80,20 +77,14 @@ button:hover {
 }
 
 #timeline-container {
-  /*position: fixed;*/
-  /*margin-top: 50px;*/
 
 }
 
 .info-container {
-  /*margin-top: 18%;*/
-  /*margin-top: 2em;*/
   height: 100%;
   display: flex;
   flex-direction: row;
-  /*position: fixed;*/
   justify-content: space-between;
-  /*align-items: center;*/
   background-color: rgba(255, 0, 0, 0);
 }
 
@@ -129,11 +120,6 @@ button:hover {
   transition: r .5s ease;
   stroke: lightskyblue;
   stroke-width: 2;
-}
-
-.active-circle {
-  /*fill: lightskyblue;
-  r: 20;*/
 }
 
 .circle:hover {

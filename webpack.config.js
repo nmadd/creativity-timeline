@@ -3,7 +3,7 @@ const LiveReloadPlugin = require('webpack-livereload-plugin');
 
 module.exports = {
   entry: [
-    './app/App'
+    './app/Start.jsx'
   ],
   output: {
     path: __dirname + "/bundle",
