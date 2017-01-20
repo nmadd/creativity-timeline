@@ -159,4 +159,5 @@ p {
 .full-text-page {
   background-color: white;
   z-index: 1;
+  padding-bottom: 5em;
 }

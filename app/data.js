@@ -33,13 +33,13 @@ export default [
     path: 'post4'
   },
   {
-    text: [`But despite our initial success, expanding past our relatively niche market was hard. When we started off the digital music industry was pretty new, but by 2014 it was almost completely taken over by bigger companies. Additionally, by that time I was over five years out of college, and I was having a harder and harder time connecting with our companies brand and mission.`],
+    text: [`But despite our initial success, expanding past our relatively niche market was hard. When we started off the digital music industry was pretty new, but by 2014 it was almost completely taken over by bigger companies. Additionally, by that time I was over five years out of college, and I was having a harder and harder time connecting with our company's brand and mission.`],
     year: 2014,
     path: 'post5'
   },
   {
     text: [`
-    For the few years prior, while I had been running FratMusic, I had also been slowly exploring how to code. Coding combined two of my favorite things: writing and solving puzzles. So in 2015, I made the difficult decision to move on from FratMusic and decided to take some time to explore my newfound interest in coding and try to find something with a mission that I really cared about.`],
+    For the few years prior, while I had been running FratMusic, I had also been slowly exploring how to code. Coding combined two of my favorite things: writing, and solving puzzles. So in 2015, I made the difficult decision to move on from FratMusic and decided to take some time to explore my newfound interest in coding and try to find something with a mission that I really cared about.`],
     year: 2015,
     path: 'post6'
   },
@@ -58,32 +58,33 @@ export default [
     text: [`
 
     Going forward, I would love to continue to explore the intersection of technology and business.
-    Ultimately, I want to be a CTO or founder of a company that is working to solve one of the many big problems in fields like education, health, and technology.
-    Along the way, I would like to continue to gain diverse work experience and explore roles in technical product management and consulting.`,
+    Ultimately, I want to be a CTO or founder of a company that is working to solve one of the many big problems in education, health, and technology.
+    `,
 
     `Throughout my experience, I have come to realize that even the best technology is ineffective without a well-organized team of great people behind it.
     I believe that moving forward, it will be crucial to have a deep understanding of both technology and human dynamics, and how they interact.
     I'm interested in pursuing an MBA to learn the science of leading people, and the art of balancing the best of technology and humanity.`,
 
     `I am drawn to Cornell Tech because of its hands-on, immersive learning environment, which I believe is the best way to learn.
-    I am also drawn to the inherently entrepreneurial nature of the program, and the interdisciplinary mix of MBA and Computer Science students.
-    I would love the opportunity to continue my journey at Cornell Tech.`],
+    I am also drawn to the inherently entrepreneurial nature of the program, and the interdisciplinary mix of MBA and Computer Science students.`,
+    `I would love the opportunity to continue my journey at Cornell Tech.`],
     year: 2017,
     path: 'post8'
   }
 ]
 
-const text8 = [`
-
-Going forward, I would love to continue to explore the intersection of technology and business.
-Ultimately, I want to be a CTO or founder of a company that is working to solve one of the many big problems in fields like education, health, and technology.
-Along the way I would also like to continue to gain diverse work experience and explore roles in technical product management and consulting.`,
-
-`Throughout my experience, I have come to realize that solving the hardest problems always comes down to having a well organized team of great people.
-Even the best technology is ineffective without a well managed group of people behind it.
-I believe that, moving forward, it will be crucial to have a deep understanding of both technology and human dynamics, and how they interact.
-I'm interested in pursuing an MBA to learn the science of leading people, and the art of blending together the best of technology and humanity.`,
-
-`I am drawn to Cornell Tech because of its hands on, immersive learning environment, which I believe is the best way to learn.
-I am also drawn to the inherently entrepreneurial nature of the program, and the interdisciplinary mix of MBA and Computer Science students.
-I would love the opportunity to continue my journey at Cornell Tech.`]
+// const text8 = [`
+//
+// Going forward, I would love to continue to explore the intersection of technology and business.
+// Ultimately, I want to be a CTO or founder of a company that is working to solve one of the many big problems in education, health, and technology.
+// Along the way I would also like to continue to gain diverse work experience by exploring fields like technical product management and consulting.`,
+//
+// `Throughout my experience, I have come to realize that solving the hardest problems always comes down to having a well organized team of great people.
+// Even the best technology is ineffective without a well managed group of people behind it.
+// I believe that, moving forward, it will be crucial to have a deep understanding of both technology and human dynamics, and how they interact.
+// I'm interested in pursuing an MBA to learn the science of leading people, and the art of blending together the best of technology and humanity.`,
+//
+// `I am drawn to Cornell Tech because of its hands on, immersive learning environment, which I believe is the best way to learn.
+// I am also drawn to the inherently entrepreneurial nature of the program, and the interdisciplinary mix of MBA and Computer Science students.`,
+//
+// `I would love the opportunity to continue my journey at Cornell Tech.`]
