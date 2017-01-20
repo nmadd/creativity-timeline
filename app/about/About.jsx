@@ -11,7 +11,7 @@ const About = (props) => (
     <div className="flex-one"></div>
     <div className="flex-three">
       <p>{aboutText1}</p>
-      <p>The timeline is original code that I've open sourced and made <a href="">available on GitHub.</a> The background was made using a cool library called <a href='http://vincentgarreau.com/particles.js'>particles.js</a>, which is also open sourced. This project was built using ReactJS.</p>
+      <p>The timeline is original code that I've open sourced and made <a href="https://github.com/nmadd/creativity-timeline">available on GitHub.</a> The background was made using a cool library called <a href='http://vincentgarreau.com/particles.js'>particles.js</a>, which is also open sourced. This project was built using ReactJS.</p>
     </div>
     <div className="flex-one"></div>
   </div>
