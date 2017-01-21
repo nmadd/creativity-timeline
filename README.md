@@ -1,0 +1,2 @@
+# creativity-timeline
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1114c855e98644bfbfcf50c29a6a16bf)](https://www.codacy.com/app/nmadd/creativity-timeline?utm_source=github.com&utm_medium=referral&utm_content=nmadd/creativity-timeline&utm_campaign=badger)
